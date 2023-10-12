@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ecommerce Website</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <p> </p>
+                <p class="alert-news">
+                    Free shipping for orders over Rs.3000 &amp; above
+                </p>
+
+                <a href="login-register.html" class="header__top-action">LogIn / SignUp</a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="img/logo.jpeg" alt="logo" class="nav__logo-img" />
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__menu-top">
+                    <a href="index.html" class="nav__menu-logo">
+                        <img src="img/logo.jpeg" alt="">
+                    </a>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="fi fi-rs-cross-small"></i>
+                    </div>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Shop</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="account.html" class="nav__link">My Account</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">Compare</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link active__link">LogIn</a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input type="text" placeholder="Search for bags...." class="form__input" />
+
+                    <button class="search__btn">
+                        <img src="img/imp/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-btn">
+                    <img src="img/imp/icon-heart.svg" alt="" />
+                    <span class="count">3</span>
+                </a>
+
+                <a href="cart.html" class="header__action-btn">
+                    <img src="img/imp/icon-cart.svg" alt="" />
+                    <span class="count">3</span>
+                </a>
+                
+                <div class="header__action-btn nav__toggle" id="nav-toggle">
+                    <img src="img/imp/menu-burger.svg" alt="">
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="main container">
+        <div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Register</label>
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="user" class="label">Username</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <input id="check" type="checkbox" class="check" checked>
+                            <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                        </div>
+                        <div class="group">
+                            <input type="submit" class="button" value="Sign In">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                            <a href="#forgot">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="sign-up-htm">
+                        <div class="group">
+                            <label for="user" class="label">Username</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Repeat Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Email Address</label>
+                            <input id="pass" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <input type="submit" class="button" value="Sign Up">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                            <label for="tab-1">Already Member?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+ <!-- footer-------- -->
+ <footer class="footer container">
+    <div class="footer__container grid">
+        <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+                <img src="img/logo.jpeg" alt="" class="footer__logo-img">
+            </a>
+            
+            <h4 class="footer__subtitle">Contact</h4>
+
+            <p class="footer__description">
+                <span>Address:</span> Shop No -168, Bapu Bazar, Chandpole ,302003
+            </p>
+
+            <p class="footer__description">
+                <span>Phone:</span> +919876543210/+919874563210
+            </p>
+
+            <p class="footer__description">
+                <span>Hours:</span> 10:00 -18:00 , mon-sat
+            </p>
+
+            <div class="footer__social">
+                <h4 class="footer__subtitle">Follow US</h4>
+                <div class="footer__social-links">
+                    <a href="">
+                        <img src="img/imp/icon-facebook.svg" alt="" class="footer__social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imp/icon-twitter.svg" alt="" class="footer__social-icon">
+                    </a>
+
+                    <a href="https://www.instagram.com/chainreaction14/">
+                        <img src="img/imp/icon-instagram.svg" alt="" class="footer__social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imp/icon-pinterest.svg" alt="" class="footer__social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imp/icon-youtube.svg" alt="" class="footer__social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">HELP</h3>
+
+            <ul class="footer__links"></ul>
+            <li><a href="help/Aboutus.html" class="footer__link">About Us</a></li>
+            <li><a href="help/terms&condition.html" class="footer__link">Terms & Conditions</a></li>
+            <li><a href="help/FAQ.html" class="footer__link">FAQ</a></li>
+            <li><a href="help/Shipping-Policy.html" class="footer__link">Shipping Policy</a></li>
+            <li><a href="help/refunpolicy.html" class="footer__link">Refund & Return Policy</a></li>
+            <li><a href="" class="footer__link">Contact Us</a></li>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">INFO</h3>
+
+            <ul class="footer__links"></ul>
+            <li><a href="login-register.html" class="footer__link">Sign In</a></li>
+            <li><a href="cart.html" class="footer__link">View Cart</a></li>
+            <li><a href="wishlist.html" class="footer__link">My Wishlist</a></li>
+            <li><a href="" class="footer__link">Track My order</a></li>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Payment Gateways</h3>
+            <img src="img/imp/payment-method.png" alt="" class="payment__img">
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <center><p class="copyright">&copy; 2023 Ikkat Bags. All rights reserved</p></center>
+        </div>
+  </footer>
+
+    <!-- Script========================= -->
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+
+    <!-- main js--------- -->
+    <script src="script.js"></script>
